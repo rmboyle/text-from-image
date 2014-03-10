@@ -1,0 +1,1 @@
+Simple sinatra app that lets you submit an image url and will then extract the text from the image using tesseract
