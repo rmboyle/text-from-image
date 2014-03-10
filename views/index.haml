@@ -1,0 +1,9 @@
+%h1
+  Text From Image
+
+%form{:action => "/text_me_bro", :method => "post"}
+  %p
+    Image Url
+    %input{:id => "url", :name => "url", :type => "text", :value => ""}/
+  %p
+    %input{:type => "submit", :value => "Text me bro"}/
